@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-06T15:30:33 CET" name="CucumberSuite" finished-at="2024-01-06T15:31:13 CET" duration-ms="39943">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@694abbdc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@9597028]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-01-06T15:30:33 CET" name="CucumberTest_Chrome" finished-at="2024-01-06T15:31:12 CET" duration-ms="38337">
+      <class name="parallel.RunCucumberTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:parallel.RunCucumberTest@694abbdc]" started-at="2024-01-06T15:30:33 CET" name="setUpClass" finished-at="2024-01-06T15:30:34 CET" duration-ms="168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@77c2494c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:parallel.RunCucumberTest@694abbdc]" started-at="2024-01-06T15:30:34 CET" name="beforeTest" finished-at="2024-01-06T15:30:41 CET" duration-ms="7855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:parallel.RunCucumberTest@694abbdc]" started-at="2024-01-06T15:30:34 CET" name="beforeTest" finished-at="2024-01-06T15:30:39 CET" duration-ms="5691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:parallel.RunCucumberTest@694abbdc]" started-at="2024-01-06T15:30:34 CET" name="beforeTest" finished-at="2024-01-06T15:30:42 CET" duration-ms="8349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@694abbdc]" started-at="2024-01-06T15:30:39 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-06T15:31:00 CET" duration-ms="20203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Parallel Execution with Different Browsers2"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@694abbdc]" started-at="2024-01-06T15:30:41 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-06T15:31:12 CET" duration-ms="30020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["3"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Parallel Execution with Different Browsers1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@694abbdc]" started-at="2024-01-06T15:30:42 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-06T15:31:07 CET" duration-ms="25036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Parallel Execution with Different Browsers1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="afterScenario()[pri:0, instance:parallel.RunCucumberTest@694abbdc]" started-at="2024-01-06T15:31:00 CET" name="afterScenario" finished-at="2024-01-06T15:31:00 CET" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterScenario -->
+        <test-method is-config="true" signature="afterScenario()[pri:0, instance:parallel.RunCucumberTest@694abbdc]" started-at="2024-01-06T15:31:07 CET" name="afterScenario" finished-at="2024-01-06T15:31:07 CET" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterScenario -->
+        <test-method is-config="true" signature="afterScenario()[pri:0, instance:parallel.RunCucumberTest@694abbdc]" started-at="2024-01-06T15:31:12 CET" name="afterScenario" finished-at="2024-01-06T15:31:12 CET" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.RunCucumberTest@694abbdc]" started-at="2024-01-06T15:31:12 CET" name="tearDownClass" finished-at="2024-01-06T15:31:12 CET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- parallel.RunCucumberTest -->
+    </test> <!-- CucumberTest_Chrome -->
+    <test started-at="2024-01-06T15:30:33 CET" name="CucumberTest_Edge" finished-at="2024-01-06T15:31:13 CET" duration-ms="39943">
+      <class name="parallel.RunCucumberTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:parallel.RunCucumberTest@9597028]" started-at="2024-01-06T15:30:33 CET" name="setUpClass" finished-at="2024-01-06T15:30:34 CET" duration-ms="168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@f5958c9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:parallel.RunCucumberTest@9597028]" started-at="2024-01-06T15:30:34 CET" name="beforeTest" finished-at="2024-01-06T15:30:43 CET" duration-ms="9733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:parallel.RunCucumberTest@9597028]" started-at="2024-01-06T15:30:34 CET" name="beforeTest" finished-at="2024-01-06T15:30:44 CET" duration-ms="10515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:parallel.RunCucumberTest@9597028]" started-at="2024-01-06T15:30:34 CET" name="beforeTest" finished-at="2024-01-06T15:30:43 CET" duration-ms="9425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@9597028]" started-at="2024-01-06T15:30:43 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-06T15:31:13 CET" duration-ms="30032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["3"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Parallel Execution with Different Browsers1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@9597028]" started-at="2024-01-06T15:30:43 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-06T15:31:08 CET" duration-ms="25033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Parallel Execution with Different Browsers1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@9597028]" started-at="2024-01-06T15:30:44 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-01-06T15:31:04 CET" duration-ms="20018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Parallel Execution with Different Browsers2"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="afterScenario()[pri:0, instance:parallel.RunCucumberTest@9597028]" started-at="2024-01-06T15:31:04 CET" name="afterScenario" finished-at="2024-01-06T15:31:05 CET" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterScenario -->
+        <test-method is-config="true" signature="afterScenario()[pri:0, instance:parallel.RunCucumberTest@9597028]" started-at="2024-01-06T15:31:08 CET" name="afterScenario" finished-at="2024-01-06T15:31:09 CET" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterScenario -->
+        <test-method is-config="true" signature="afterScenario()[pri:0, instance:parallel.RunCucumberTest@9597028]" started-at="2024-01-06T15:31:13 CET" name="afterScenario" finished-at="2024-01-06T15:31:13 CET" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.RunCucumberTest@9597028]" started-at="2024-01-06T15:31:13 CET" name="tearDownClass" finished-at="2024-01-06T15:31:13 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- parallel.RunCucumberTest -->
+    </test> <!-- CucumberTest_Edge -->
+  </suite> <!-- CucumberSuite -->
+</testng-results>
